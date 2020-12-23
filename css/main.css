@@ -1,0 +1,20 @@
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    color: #fff;
+    bottom: 0;
+}
+
+.blog-header-logo {
+    font-family: "DM Serif", "sans-serif";
+    font-size: 2rem;
+    line-height: 1;
+}
