@@ -9,15 +9,15 @@ function loadFiles() {
 add_action('wp_enqueue_scripts', 'loadFiles');
 function addFeatures() {
     add_theme_support('title-tag');
-}
-add_action('after_setup_theme', 'addFeatures');
-add_theme_support( 'post-thumbnails' );
-add_theme_support( 'menus' );
-register_nav_menus(
-    array(
-        'top-menu' => 'Top Menu Location',
-        'mobile-menu' => 'Mobile Menu Location',
-    
-    ));
+    add_action('after_setup_theme', 'addFeatures');
+    add_theme_support( 'post-thumbnails' );
+    add_theme_support( 'menus' );
+    register_nav_menus(
+        array(
+            'top-menu' => 'Top Menu Location',
+            'mobile-menu' => 'Mobile Menu Location',
+        
+        ));
+    }
 ?>
 
