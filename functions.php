@@ -13,5 +13,11 @@ function addFeatures() {
 add_action('after_setup_theme', 'addFeatures');
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'menus' );
+register_nav_menus(
+    array(
+        'top-menu' => 'Top Menu Location',
+        'mobile-menu' => 'Mobile Menu Location',
+    
+    ));
 ?>
 
